@@ -1,0 +1,193 @@
+.titulo{
+    font: 800;
+    color: white;
+ text-align: center;
+    
+}
+.fondo{
+    
+    background: #d14f13
+    
+}
+.body{width:100%;
+}
+.imagen{
+ float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.imagen2{
+    float: right;
+     margin-left: 20px;
+    
+   }
+.caja1{
+ Color: rgb(244, 121, 32);
+  width: 76%;
+}
+
+.caja2{
+    color:  rgb(0, 88, 131); 
+    width: 76%;
+   
+}
+.caja3{
+    color: black;  
+    width: 98%; 
+}
+.fondotxt1{
+    
+    background:  rgb(0, 88, 131);
+    width: 74%;
+    border: 5px solid orange;
+    margin: 6px;
+    padding: 8px;
+    text-align: justify;
+}
+.fondotxt2{
+    background:     rgb(244, 121, 32);
+    width: 74%;
+    border: 5px solid #808080;
+    margin: 6px;
+    padding: 8px;
+    text-align: justify;
+}
+.justificar{
+    text-align: justify;
+}
+.alinear{
+    margin: 7px;
+    padding: 9px;
+}
+.fondotxt3{
+    
+    background: rgb(244, 121, 32);
+    width: 100;
+    border: 5px solid #808080;;
+}
+.fondotxt4{
+    
+    background: rgb(0, 88, 131);
+    width: 100;
+    border: 5px solid #808080;;
+    margin: 6px;
+}
+.fondotxt5{
+    background: rgb(244, 121, 32);
+    width: 100;
+    border: 3px solid  rgb(0, 88, 131);
+    margin: 6px;
+}
+.fondotxt6{
+    background: rgb(0, 88, 131);
+    width: 100;
+    border: 3px solid  rgb(244, 121, 32);
+   
+}
+.fondotxtpodcast {
+    background:rgb(212, 209, 50);
+    width: 120%;
+    border: 1px solid #808080;;
+   
+}
+.bloqueautor{
+    background: rgb(0, 88, 131);
+    width: 75%;
+    border: 5px solid orange;
+
+
+
+}
+.lectura1{
+    background:    rgb(0, 88, 131);
+    width: 98%;
+    border: 3px solid orangered;
+    margin: 6px;
+    padding: 8px;
+    text-align: justify;
+}
+.lectura2{
+    background:     rgb(253, 158, 68);
+    width: 98%;
+    border: 3px solid blue;
+    margin: 6px;
+    padding: 8px;
+    text-align: justify;
+}
+.titulo2{
+    
+    background: rgb(244, 121, 32);
+    text-align: center;
+    width: 100%;
+}
+.fondoweb{
+    background-color: #b3b3b3;
+    border: 0.1px solid #333333;
+}
+.tamañotxt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+.tamañotxt2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+.tamañotit{
+    font-size: 150%;
+}
+.widgett{
+    float: right;
+    margin: 25px;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+
+/* Aqui inicia estilos para la barra de menu */
+
+#header {
+    padding:18px;
+    margin:auto;
+    width:470px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   
+   ul, ol {
+    list-style:none;
+   }
+   
+   .nav > li {
+    float:left;
+   }
+   
+   .nav li a {
+    background-color: #005883;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 20px;
+    display:block;
+   }
+   
+   .nav li a:hover {
+    background-color: #808088;
+   }
+   
+   .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+   }
+   
+   .nav li:hover > ul {
+    display:block;
+   }
+   
+   .nav li ul li {
+    position:relative;
+   }
+   
+   .nav li ul li ul {
+    right:-140px;
+    top:0px;
+   }
