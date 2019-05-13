@@ -1,3 +1,4 @@
+C
 .titulo{
     font: 800;
     color: white;
@@ -14,7 +15,7 @@
 .imagen{
  float: left;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 .imagen2{
     float: right;

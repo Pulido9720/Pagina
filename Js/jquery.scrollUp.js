@@ -1,3 +1,4 @@
+/* star */
 (function ($, window, document) {
     'use strict';
 
